@@ -1,9 +1,10 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace PurplerArtsWeb.Models.Submission
+namespace PurplerArtsWeb.Models.SubmissionApplication
 {
-    public class Submission
+    public class SubmissionApplication
     {
+
         [Key]
         public int Id { get; set; }
         public string Name { get; set; } = "Annoymous";
@@ -11,9 +12,14 @@ namespace PurplerArtsWeb.Models.Submission
         [Required]
         public string Decription { get; set; } = "Default string";
 
+        // [Required]
+        // [DataType(DataType.Date)]
+        // public DateTime SubmittedDate { get; set; }
+
         [Required]
         [DataType(DataType.Date)]
-        public DateTime SubmittedDate { get; set; }
+        public DateTime RequestedDate { get; set; }
+
 
         [Required]
         [DataType(DataType.EmailAddress)]
