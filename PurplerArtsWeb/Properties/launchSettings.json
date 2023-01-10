@@ -3,16 +3,16 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:49039",
-      "sslPort": 44373
+      "applicationUrl": "http://localhost:36742",
+      "sslPort": 44354
     }
   },
   "profiles": {
-    "PurplerArtsWeb": {
+    "WazeCreditGreen": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:7223;http://localhost:5223",
+      "applicationUrl": "https://localhost:7166;http://localhost:5166",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

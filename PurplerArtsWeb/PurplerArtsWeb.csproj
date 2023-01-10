@@ -10,6 +10,11 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="7.0.1"/>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.12"/>
     <PackageReference Include="Serilog.Extensions.Logging.File" Version="3.0.1-dev-00077"/>
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="7.0.1"/>
+    <PackageReference Include="Microsoft.Bcl.AsyncInterfaces" Version="7.0.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCaching.Abstractions" Version="2.2.0"/>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="6.0.0-preview.4.21253.5"/>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.12"/>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.12"/>
   </ItemGroup>
 </Project>
